@@ -13,7 +13,7 @@ st.write("Upload the file here")
 quesation = st.text_input('Ask your q', '')
 # -------------------- to calculate eq. ----------------
 def calculate():
-st.write('Your Question is', quesation)
+ st.write('Your Question is', quesation)
 
 # -------------------- to run the button ----------------
 if st.button("Answer"):
