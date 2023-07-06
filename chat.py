@@ -13,17 +13,12 @@ st.write("Upload the file here")
 
 st.write("Ask your Question")
 
-# input 1
-PMA = st.st.text_input(label="Post menstural age (PMA), units = weeks")
-# input 2
-WT = st.st.text_input(label="Weight (WT), units = kilograms")
-
-
-st.write("Time of infusion = fixed at 2 hours")
+title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)
 
 # -------------------- to calculate eq. ----------------
 def calculate():
-    volume_of_distribution = PMA + WT
+    volume_of_distribution = title
                                              
 # -------------------- to print the results ----------------
     st.write("Volume of Distribution = ",volume_of_distribution)
