@@ -10,9 +10,7 @@ st.write("---")
 st.header("Research Paper Info") # header 
 
 st.write("Upload the file here")
-
-st.write("Ask your Question")
-quesation = st.text_input('Movie title', 'Write your quesation here')
+quesation = st.text_input('Ask your Question, ' ')
 st.write('Your Question is', quesation)
 
 # -------------------- to calculate eq. ----------------
