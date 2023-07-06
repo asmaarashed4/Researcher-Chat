@@ -2,7 +2,7 @@ import streamlit as st # to import libarary
 import math
 
 # ---------------- to creates the title ------------------
-st.title("Researcher Chat Assistant")
+st.title("Researcher cchat Assistant")
 # ---------------- to creates a horizontal line -------------------
 st.write("---")
  
@@ -10,7 +10,7 @@ st.write("---")
 st.header("Research Paper Info") # header 
 
 st.write("Upload the file here")
-quesation = st.text_input('Ask your Question, ' ')
+quesation = st.text_input('Ask your q, ' ')
 # -------------------- to calculate eq. ----------------
 def calculate():
 st.write('Your Question is', quesation)
