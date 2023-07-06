@@ -15,7 +15,7 @@ st.write("Ask your Question")
 
 title = st.text_input('Movie title', label_visibility=st.session_state.visibility,
         disabled=st.session_state.disabled,
-        placeholder=st.session_state.placeholder,
+        placeholder=st.session_state.placeholder
     )
 
 # -------------------- to calculate eq. ----------------
