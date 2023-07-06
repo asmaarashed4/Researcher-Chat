@@ -13,15 +13,13 @@ st.write("Upload the file here")
 
 st.write("Ask your Question")
 
-title = st.text_input('Movie title', label_visibility=st.session_state.visibility,
-        disabled=st.session_state.disabled,
-        placeholder=st.session_state.placeholder
-    )
+title = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', title)
 
 # -------------------- to calculate eq. ----------------
 def calculate():
-if text_input:
-        st.write("You entered: ", text_input)
+st.write("Ask your Question")
+
 # -------------------- to run the button ----------------
 if st.button("Answer"):
     calculate()
