@@ -7,26 +7,15 @@ st.title("Researcher Chat Assistant")
 st.write("---")
  
 # ---------------- to enter the Patient Parameters -------------------
-st.header("Patient Parameters") # header 
+st.header("Research Paper Info") # header 
+st.write("Upload the file here")
+
 # input 1
 PMA = st.number_input(label="Post menstural age (PMA), units = weeks")
 # input 2
 WT = st.number_input(label="Weight (WT), units = kilograms")
-# input 3
-SC = st.number_input(label="Serum Creatinine, units = milligram/deciliter")
-# input 4
-dose = st.number_input(label="Dose in milligram")
 
-# -------------------- to choose the Dosing Freruency ----------------
-#input 5
-frequency = st.selectbox(
-    'Select the frequency to perform:',
-    ('8', '12', '18', '24'))
-dosing_freruency = float(frequency)
 
-# -------------------- Time of infusion = fixed at 2 hours ----------------
-#input 6
-time_of_infusion= 2
 st.write("Time of infusion = fixed at 2 hours")
 
 # -------------------- to calculate eq. ----------------
