@@ -14,9 +14,9 @@ st.write("Upload the file here")
 st.write("Ask your Question")
 
 # input 1
-PMA = st.number_input(label="Post menstural age (PMA), units = weeks")
+PMA = st.input(label="Post menstural age (PMA), units = weeks")
 # input 2
-WT = st.number_input(label="Weight (WT), units = kilograms")
+WT = st.input(label="Weight (WT), units = kilograms")
 
 
 st.write("Time of infusion = fixed at 2 hours")
@@ -26,7 +26,7 @@ def calculate():
     volume_of_distribution = PMA + WT
                                              
 # -------------------- to print the results ----------------
-    st.write("Volume of Distribution = ",round(volume_of_distribution,2))
+    st.write("Volume of Distribution = ",volume_of_distribution)
 
 # -------------------- to run the button ----------------
 if st.button("Answer"):
