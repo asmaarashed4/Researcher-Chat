@@ -13,7 +13,10 @@ st.write("Upload the file here")
 
 st.write("Ask your Question")
 
-quesation = st.text_input('Movie title', )
+quesation = st.text_input('Movie title',  label_visibility=st.session_state.visibility,
+        disabled=st.session_state.disabled,
+        placeholder=st.session_state.placeholder,
+    )
 st.write('The current movie title is', quesation)
 
 # -------------------- to calculate eq. ----------------
