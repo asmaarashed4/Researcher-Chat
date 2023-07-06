@@ -14,9 +14,9 @@ st.write("Upload the file here")
 st.write("Ask your Question")
 
 # input 1
-PMA = st.input(label="Post menstural age (PMA), units = weeks")
+PMA = st.text(label="Post menstural age (PMA), units = weeks")
 # input 2
-WT = st.input(label="Weight (WT), units = kilograms")
+WT = st.text(label="Weight (WT), units = kilograms")
 
 
 st.write("Time of infusion = fixed at 2 hours")
