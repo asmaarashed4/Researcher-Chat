@@ -11,11 +11,9 @@ st.header("Research Paper Info") # header
 
 st.write("Upload the file here")
 quesation = st.text_input('Ask your Question, ' ')
-st.write('Your Question is', quesation)
-
 # -------------------- to calculate eq. ----------------
 def calculate():
- st.write("Ask your Question")
+st.write('Your Question is', quesation)
 
 # -------------------- to run the button ----------------
 if st.button("Answer"):
