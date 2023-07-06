@@ -1,15 +1,3 @@
-!pip install wget #python package to download files from internet
-#langchain a software development framework designed to simplify the creation of applications using large language models
-!pip install langchain
-!pip install faiss-cpu
-#tiktoken is a fast BPE tokeniser for use with OpenAI's models
-!pip install tiktoken
-#PyPDF2 is a free and open-source pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
-!pip install PyPDF2
-#we will use wget to download our pdf file
-!pip install wget
-# to work with openAI
-!pip install openai
 import streamlit as st # to import libarary
 import math
 import wget
