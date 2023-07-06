@@ -1,5 +1,11 @@
 import streamlit as st # to import libarary
 import math
+import wget
+from langchain.embeddings.openai import OpenAIEmbeddings
+from PyPDF2 import PdfReader
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.vectorstores import ElasticVectorSearch, Pinecone, Weaviate, FAISS
+import wget
 
 # ---------------- to creates the title ------------------
 st.title("Researcher Chat Assistant")
