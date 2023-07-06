@@ -18,7 +18,7 @@ st.write('The current movie title is', title)
 
 # -------------------- to calculate eq. ----------------
 def calculate():
-st.write("Ask your Question")
+ st.write("Ask your Question")
 
 # -------------------- to run the button ----------------
 if st.button("Answer"):
