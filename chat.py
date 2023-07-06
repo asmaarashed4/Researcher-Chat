@@ -13,8 +13,8 @@ st.write("Upload the file here")
 
 st.write("Ask your Question")
 
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
+quesation = st.text_input('Movie title', 'Life of Brian')
+st.write('The current movie title is', quesation)
 
 # -------------------- to calculate eq. ----------------
 def calculate():
