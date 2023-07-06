@@ -13,16 +13,15 @@ st.write("Upload the file here")
 
 st.write("Ask your Question")
 
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
+title = st.text_input('Movie title', label_visibility=st.session_state.visibility,
+        disabled=st.session_state.disabled,
+        placeholder=st.session_state.placeholder,
+    )
 
 # -------------------- to calculate eq. ----------------
 def calculate():
-    volume_of_distribution = title
-                                             
-# -------------------- to print the results ----------------
-    st.write("Volume of Distribution = ",volume_of_distribution)
-
+if text_input:
+        st.write("You entered: ", text_input)
 # -------------------- to run the button ----------------
 if st.button("Answer"):
     calculate()
