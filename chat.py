@@ -1,7 +1,7 @@
 import streamlit as st # to import libarary
 import math
 
-# ---------------- to creates the title -------------------
+# ---------------- to creates the title ------------------
 st.title("Researcher Chat Assistant")
 # ---------------- to creates a horizontal line -------------------
 st.write("---")
